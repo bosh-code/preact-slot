@@ -55,6 +55,7 @@
     "eslint-plugin-react": "^7.37.5",
     "globals": "^16.4.0",
     "happy-dom": "^20.0.4",
+    "npm-run-all2": "^8.0.4",
     "prettier": "^3.6.2",
     "safe-publish-latest": "^2.0.0",
     "tsdown": "^0.15.7",
