@@ -1,6 +1,6 @@
 {
   "name": "@bosh-code/preact-slot",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Preact implementation of @radix-ui/react-slot.",
   "keywords": [
     "preact",
