@@ -1,0 +1,11 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "tsBuildInfoFile": "../node_modules/.tmp/tsconfig.playground.node.tsbuildinfo",
+    "module": "ESNext",
+    "moduleResolution": "nodenext",
+  },
+  "include": [
+    "vite.config.ts"
+  ]
+}

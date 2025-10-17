@@ -1,0 +1,77 @@
+{
+  "name": "@bosh-code/preact-slot",
+  "version": "0.1.0",
+  "description": "A Preact implementation of @radix-ui/react-slot.",
+  "keywords": [
+    "preact",
+    "slot",
+    "radix-ui",
+    "component",
+    "ui",
+    "library",
+    "shadcn"
+  ],
+  "homepage": "https://github.com/bosh-code/preact-slot",
+  "bugs": "https://github.com/bosh-code/preact-slot/issues",
+  "license": "MIT",
+  "author": "Ryan Bosher <ryan@bosher.co.nz>",
+  "contributors": [
+    {
+      "name": "Ryan Bosher",
+      "email": "ryan@bosher.co.nz",
+      "url": "https://bosher.co.nz"
+    }
+  ],
+  "files": [
+    "dist",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ],
+  "main": "./dist/index.js",
+  "repository": "bosh-code/preact-slot.git",
+  "scripts": {
+    "build": "tsdown",
+    "build:debug": "tsdown --no-treeshake",
+    "dev": "tsdown --watch",
+    "lint": "eslint .",
+    "playground": "vite --config playground/vite.config.ts",
+    "prepublishOnly": "run-s safe-publish-latest build lint",
+    "safe-publish-latest": "safe-publish-latest",
+    "test": "vitest --watch false",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^20.1.0",
+    "@commitlint/config-conventional": "^20.0.0",
+    "@commitlint/prompt-cli": "^20.1.0",
+    "@eslint/js": "^9.37.0",
+    "@preact/preset-vite": "^2.10.2",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/preact": "^3.2.4",
+    "@types/node": "^24.8.1",
+    "eslint": "^9.37.0",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.4.0",
+    "happy-dom": "^20.0.4",
+    "prettier": "^3.6.2",
+    "safe-publish-latest": "^2.0.0",
+    "tsdown": "^0.15.7",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.46.1",
+    "vite": "npm:rolldown-vite@latest",
+    "vitest": "^3.2.4"
+  },
+  "peerDependencies": {
+    "preact": "^10.27.2"
+  },
+  "packageManager": "pnpm@10.18.3",
+  "engines": {
+    "node": ">=24"
+  },
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  }
+}
