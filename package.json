@@ -49,6 +49,7 @@
     "prepublishOnly": "run-s safe-publish-latest build lint",
     "safe-publish-latest": "safe-publish-latest",
     "test": "vitest --watch false",
+    "test:coverage": "vitest run --coverage",
     "test:watch": "vitest",
     "typecheck": "tsc --noEmit"
   },
@@ -61,6 +62,7 @@
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/preact": "^3.2.4",
     "@types/node": "^24.8.1",
+    "@vitest/coverage-v8": "3.2.4",
     "eslint": "^9.37.0",
     "eslint-plugin-react": "^7.37.5",
     "globals": "^16.4.0",
