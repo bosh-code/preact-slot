@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [preactPlugin()],
   test: {
     coverage: {
-      provider: 'v8',
+      provider: 'istanbul',
       reportsDirectory: './coverage',
       thresholds: {
         perFile: true,
@@ -14,12 +14,7 @@ export default defineConfig({
         functions: 80,
         lines: 80
       },
-      reporter: [
-        'text',
-        'json-summary',
-        'html-spa',
-        'lcov'
-      ],
+      reporter: ['lcov', 'json', 'text-summary', 'html'],
       all: true,
       include: [
         'src/**/*.tsx'
