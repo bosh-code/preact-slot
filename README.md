@@ -2,7 +2,8 @@
 
 [![Coverage Status](https://coveralls.io/repos/github/bosh-code/preact-slot/badge.svg)](https://coveralls.io/github/bosh-code/preact-slot)
 [![Release](https://github.com/bosh-code/preact-slot/actions/workflows/release.yml/badge.svg)](https://github.com/bosh-code/preact-slot/actions/workflows/release.yml)
-![NPM Version](https://img.shields.io/npm/v/%40bosh-code%2Fpreact-slot)
+[![Unit Test](https://github.com/bosh-code/preact-slot/actions/workflows/unit-test.yml/badge.svg?branch=main)](https://github.com/bosh-code/preact-slot/actions/workflows/unit-test.yml)
+[![NPM Version](https://img.shields.io/npm/v/%40bosh-code%2Fpreact-slot)](https://www.npmjs.com/package/@bosh-code/preact-slot)
 
 
 A Preact implementation of the [@radix-ui/react-slot](https://www.radix-ui.com/primitives) component meant for use
